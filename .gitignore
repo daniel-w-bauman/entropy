@@ -1,0 +1,13 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# xcodegen-generated project (regenerate with `xcodegen generate`)
+entropy.xcodeproj/
+
+# Secrets
+entropy/APIKeys.plist
